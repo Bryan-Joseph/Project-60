@@ -1,0 +1,75 @@
+#sec1 {
+	background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+	text-align: center;
+	background-repeat: no-repeat;
+
+}
+
+#img1 {
+	border-radius: 100%;
+}
+
+h1 {
+	text-shadow: 2px 2px #FFEBEE;
+	font-size: 20px;
+	font-size: 30px;
+}
+.menu{
+	list-style: none;
+	position: fixed;
+	top: 30px;
+	right: 30px;
+	z-index: 10;
+	cursor: pointer;
+}
+.links{
+	float: left;
+	color: currentColor;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 30px;
+	
+}
+#nar{
+	font-family: 'Yellowtail', cursive;
+}
+#sec2{
+	background-color: pink;
+	text-align: center;
+}
+#reviews{
+	background-color: lightgreen;
+	text-align: center;
+}
+iframe {
+	margin: 30px;
+}
+.links a {
+	color: aliceblue;
+	transition-duration: 0.2s;
+	text-decoration: none;
+}
+
+.img img{
+	transition-duration: 0.2s;
+}
+
+.img img:hover{
+	transform: scale(0.9);
+	cursor: pointer;
+}
+
+#inspiration {
+	background-color: lightpink;
+	text-align: center;
+}
+
+.links:hover{
+	background-color: dodgerblue;
+	font-size: 35px;
+}
+.img{
+	margin: 50px
+}
